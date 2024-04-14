@@ -143,11 +143,27 @@ def graficarDistribucionVictimasPorAnioYSemestre(datos, columnaAnio, columnaSeme
 
     st.altair_chart(grafico, use_container_width=True)
 
-
-
 def graficarVictimasPorMes(datos, columnaFecha, columnaVictimas):
     """Visualiza la cantidad de víctimas por mes."""
-    meses = datos[columnaFecha].dt.month_name(locale='es_ES')  # Cambia los nombres de los meses a español
+    # Nombres de los meses en español
+    meses_espanol = {
+        1: 'Enero',
+        2: 'Febrero',
+        3: 'Marzo',
+        4: 'Abril',
+        5: 'Mayo',
+        6: 'Junio',
+        7: 'Julio',
+        8: 'Agosto',
+        9: 'Septiembre',
+        10: 'Octubre',
+        11: 'Noviembre',
+        12: 'Diciembre'
+    }
+    
+    # Obtener los nombres de los meses en español
+    meses = datos[columnaFecha].dt.month.map(meses_espanol)
+    
     victimasPorMes = datos.groupby(meses)[columnaVictimas].sum().reset_index()
     
     # Ordenar los meses cronológicamente
