@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 
-rutaArchivo = "SQL\\siniestrosCaba.db"
+rutaArchivo = "SQL//siniestrosCaba.db"
 
 
 
