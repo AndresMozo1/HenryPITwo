@@ -180,7 +180,7 @@ def graficarVictimasPorMes(datos, columnaFecha, columnaVictimas):
     
     st.altair_chart(grafico, use_container_width=True)
 
-
+'''
 def graficarVictimasPorMes(datos, columnaFecha, columnaVictimas):
     """Visualiza la cantidad de víctimas por mes."""
     meses = datos[columnaFecha].dt.month_name(locale='es_ES')  # Cambia los nombres de los meses a español
@@ -214,7 +214,7 @@ def graficarVictimasPorMes(datos, columnaFecha, columnaVictimas):
         labelFontSize=12
     )
 
-    st.altair_chart(grafico, use_container_width=True)
+    st.altair_chart(grafico, use_container_width=True) ''' 
 
 
 
