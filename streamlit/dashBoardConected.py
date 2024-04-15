@@ -99,7 +99,7 @@ with col2:
 
         with subcol2:
             # Obtener la variación del DataFrame
-            variacion = dfSegundoKpi['VARIACION'].iloc[-1]
+            variacion = dfSegundoKpi['VARIACION'].iloc[-2]
             
             # Crear un contenedor en Streamlit
             with st.container():
