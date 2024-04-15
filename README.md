@@ -53,7 +53,7 @@ La distribución geográfica de la accidentalidad por comunas muestra disparidad
 
 
 
-Los patrones diferenciales en las víctimas y responsables, así como en los rangos de edad, resaltan la importancia de abordar los factores de riesgo asociados con mayor precisión. Los datos mas revelador es que el rango de edad de 21 a 40 años es el que más víctimas fatales aporta, con alrededor de 350 personas, seguido del rango de 41 a 60 años, con alrededor de 210 víctimas. Entre los 21 y los 60 años, estos rangos de edad aportan el 70% del total de las víctimas fatales, demostrando que la imprudencia no diferencia edades.
+Los patrones diferenciales en las víctimas y responsables, así como en los rangos de edad, resaltan la importancia de abordar los factores de riesgo asociados con mayor precisión. El dato mas revelador es que el rango de edad de 21 a 40 años es el que más víctimas fatales aporta, con alrededor de 350 personas, seguido del rango de 41 a 60 años, con alrededor de 210 víctimas. Entre los 21 y los 60 años, estos rangos de edad aportan el 70% del total de las víctimas fatales, demostrando que la imprudencia no diferencia edades.
 
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/71e7c258-90b0-44d1-8a5b-46be1a143c2e)
@@ -74,7 +74,7 @@ Estos hallazgos me ofrecieron una base sólida para orientar estrategias de prev
 
 
 
-Como segundo paso desarrollé el proceso de Extracción Transformación y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb). Aquí obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165), los traté y unifiqué para empezar a perfilar los datos en búsqueda de los dos KPIs previamente suministrados y un tercero que complementase a los primeros. 
+Como segundo, y teniendo presente la necesidad de obtener datos poblacionales que me dieran puntos de referencia para los indicadores clave de rendimiento (KPI), desarrollé el proceso de Extracción Transformación y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb). Aquí obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165), los traté y unifiqué para empezar a perfilar los datos en búsqueda de los dos KPIs previamente suministrados y un tercero que complementase a los primeros. 
 
 ## Primer KPI 
 
