@@ -1,19 +1,19 @@
-<h1 align='left'>
+<h1 align='center'>
  <b>Analisis Siniestralidad vial Ciudad de Buenos Aires 2016 - 2021</b>
 </h1>
 
 
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/86dffe8b-7292-498b-a6bd-8de169d2aefc)
 
-![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/eb7595b4-66dd-494c-a146-53be5c95d61b)
 
-<h2 align='left'>
+<h2 align='center'>
  <b> Proyecto Individual Data Analytics </b>
 </h2>
 
-<p align='left'>
- <b>  Wilmer Andrés Mozo Villamil DATA PT07  </b>
+<p align='center'>
+ <b> [Wilmer Andrés Mozo Villamil DATA PT07 ](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/) </b>
 <p>
-
+[EDA.ipynb](https://github.com/AndresMozo1/secondHenry/blob/master/EDA.ipynb)
    
 
 <div style="text-align:center">
