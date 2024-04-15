@@ -10,12 +10,9 @@
  <b> Proyecto Individual Data Analytics </b>
 </h2>
 
-<p align='center'>
-    Wilmer Andrés Mozo Villamil DATA PT07
-</p>
+[Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/dd841dbd-ec0a-40b8-9e30-18b04487582d)
-
 
 
 Buenos Aires, una ciudad donde la historia y la modernidad se entrelazan en un vibrante tapiz cultural. Desde su fundación hasta el presente, la Ciudad Autónoma de Buenos Aires (CABA) ha sido testigo de un crecimiento constante y una rica diversidad de experiencias, con sus calles impregnadas de música, arte y gastronomía. Buenos Aires es un destino turístico de renombre mundial. Sus emblemáticos barrios, como San Telmo, La Boca y Palermo, ofrecen una variedad de atracciones que cautivan a visitantes de todas partes.
@@ -37,7 +34,7 @@ Paso seguido empece a buscar Insights que me permitieran entender un poco mas la
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/5822c851-e69c-4760-b343-d2381f3f2790)
 
 
-
+[Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)
 
 
 Eston son los datos mas valiosos del proceso de [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
@@ -107,14 +104,14 @@ Sin duda alguna python como herramienta potentisima para cualquier tipo de trata
 
 
 <h1 align='center'>
- <b>Links de Navegación</b>
+ <b>Indice de recursos </b>
 </h1>
 
-[Análisis Exploratorio de Datos](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
-[Extracción Transformación y Carga](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb)
-[Data Frames](https://github.com/AndresMozo1/HenryPITwo/tree/main/DataFrames)
-[Base de datos](https://github.com/AndresMozo1/HenryPITwo/tree/main/SQL)
-[Imagenes](https://github.com/AndresMozo1/HenryPITwo/tree/main/Imagenes)
+-[Análisis Exploratorio de Datos](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
+-[Extracción Transformación y Carga](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb)
+-[Data Frames](https://github.com/AndresMozo1/HenryPITwo/tree/main/DataFrames)
+-[Base de datos](https://github.com/AndresMozo1/HenryPITwo/tree/main/SQL)
+-[Imagenes](https://github.com/AndresMozo1/HenryPITwo/tree/main/Imagenes)
 
 
 
