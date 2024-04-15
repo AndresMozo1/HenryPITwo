@@ -1,5 +1,5 @@
 <h1 align='center'>
- <b>Analisis Siniestralidad vial Ciudad de Buenos Aires 2016 - 2021</b>
+ <b>Análisis de Siniestralidad Vial en la Ciudad de Buenos Aires 2016 - 2021</b>
 </h1>
 
 
@@ -7,7 +7,7 @@
 
 
 <h2 align='center'>
- <b> Proyecto Individual Data Analytics </b>
+ <b>Proyecto Individual de Data Analytics</b>
 </h2>
 
 [Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)
@@ -26,20 +26,15 @@ A través de este proyecto, se busca no solo analizar datos, sino también contr
 
 
 
-Durante el  primer contacto con los datos, [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb) me enfoque en analizar la composición y el tamaño de los datasets recibidos, con el propósito de observar similitudes, unificar información y avanzar hacia la visualización de los datos. Se realizó un análisis exhaustivo columna por columna en busca de información relevante o duplicada, así como la verificacion el formato de los datos, con el fin de tener un panorama claro para el desarrollo del proyecto.
+Durante el primer contacto con los datos, [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb), me enfoqué en analizar la composición y el tamaño de los datasets recibidos, con el propósito de observar similitudes, unificar información y avanzar hacia la visualización de los datos. Se realizó un análisis exhaustivo columna por columna en busca de información relevante o duplicada, así como la verificación del formato de los datos, con el fin de tener un panorama claro para el desarrollo del proyecto.
 
-Paso seguido empece a buscar Insights que me permitieran entender un poco mas las causas de la accidentalidad vial en CABA , las zonas con mayor insidencia, los actores viales, las franjas horarias y hasta los dias de la semana con el fin de tener una vision amplia y precisa que permita crear un plan de accion a corto , mediano y largo plazo; mientras se realizaba este analsis exploratorio de los datos, se empezaron a hacer visibles diferentes patrones y tendencias , datos que se pudieron verificar con fuentes oficiales y en este punto identifique la necesidad de 'enriquecer' los datos; partiendo del hecho que  el Sistema Nacional de Información Criminal (SNIC) define la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico.
+Seguido, empecé a buscar insights que me permitieran entender un poco más las causas de la accidentalidad vial en CABA, las zonas con mayor incidencia, los actores viales, las franjas horarias y hasta los días de la semana con el fin de tener una visión amplia y precisa que permita crear un plan de acción a corto, mediano y largo plazo; mientras se realizaba este análisis exploratorio de los datos, se empezaron a hacer visibles diferentes patrones y tendencias, datos que se pudieron verificar con fuentes oficiales y en este punto identifiqué la necesidad de 'enriquecer' los datos; partiendo del hecho que el Sistema Nacional de Información Criminal (SNIC) define la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico.
 
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/5822c851-e69c-4760-b343-d2381f3f2790)
 
 
-
-
-
-Eston son los datos mas valiosos del proceso de [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
-
-
+Estos son los datos más valiosos del proceso de [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb):
 
 Los picos en la accidentalidad por horas sugieren la necesidad de medidas preventivas específicas en momentos clave del día (AM).
 
@@ -52,7 +47,7 @@ La variación en la frecuencia de accidentes según el tipo de calles señala á
 
 
 
-La distribución geográfica de la accidentalidad por comunas muestra disparidades significativas, destacando áreas que necesitan mayor atención en seguridad vial y programas educativos, empezando por la comuna 1 por su alta concentracion de turistas y zonas de interes.
+La distribución geográfica de la accidentalidad por comunas muestra disparidades significativas, destacando áreas que necesitan mayor atención en seguridad vial y programas educativos, empezando por la comuna 1 por su alta concentración de turistas y zonas de interés.
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/715b1b3c-45ca-43a9-b7d9-4b293e97a290)
 
@@ -79,7 +74,7 @@ Estos hallazgos me ofrecieron una base sólida para orientar estrategias de prev
 
 
 
-Como segundo paso desarrolle el proceso de Extraccion Transformacion y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb) Aqui obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165)  los trate y unifique para empezar a perfilar los datos en busqueda de los dos KPIS previamente suministrados y un tercero que complementase a los primeros.
+Como segundo paso desarrollé el proceso de Extracción Transformación y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb). Aquí obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165), los traté y unifiqué para empezar a perfilar los datos en búsqueda de los dos KPIs previamente suministrados y un tercero que complementase a los primeros.
 
 <p align='center'>
   <img src="https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3184ca12-4904-4845-9a73-62e1ad2d263e" alt="imagen" />
@@ -88,14 +83,14 @@ Como segundo paso desarrolle el proceso de Extraccion Transformacion y Carga de 
 
 
 
-Como tercer paso cree una base de datos para una gestion eficiente de la informacion previamente tratada, para esto utilice el mapeador relacional de objetos [sqlalchemy](https://www.sqlalchemy.org/) para relacionar la base de datos creada con [sqlite3](https://www.sqlite.org/) para su posterior extraccion y finalmente su carga en formato de dataframe utilizando la libreria de [pandas](https://pandas.pydata.org/); este estack tecnologico brinda una infraestructura local y eficiente para administrar la informacion.
+Como tercer paso, creé una base de datos para una gestión eficiente de la información previamente tratada, para esto utilicé el mapeador relacional de objetos [sqlalchemy](https://www.sqlalchemy.org/) para relacionar la base de datos creada con [sqlite3](https://www.sqlite.org/) para su posterior extracción y finalmente su carga en formato de dataframe utilizando la librería de [pandas](https://pandas.pydata.org/); este stack tecnológico brinda una infraestructura local y eficiente para administrar la información.
 
 
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3711db08-5522-4e4f-a913-c80ede01a028)
 
 
-Sin duda alguna python como herramienta potentisima para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerias) empalma perfectamente con  un entorno de visualización igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/), despues de leer parte de su documentacion, ver sus graficos, forma de crearlos y deplegarlos , tomo la decision de realizar transformaciones extras a los datos para crear graficos mas contundentes los cuales con filtros extras muestran informacion precisa,  y clara para analisis y toma de decisiones. [Mira el Dashboard aqui](https://dashboardconectedpy-duzhzatzufew739jdcn92m.streamlit.app/).
+Sin duda alguna, Python como herramienta potente para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerías) encaja perfectamente con un entorno de visualización igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/). Después de leer parte de su documentación, ver sus gráficos, forma de crearlos y desplegarlos, tomé la decisión de realizar transformaciones extras a los datos para crear gráficos más contundentes los cuales con filtros extras muestran información precisa y clara para análisis y toma de decisiones. [Mira el Dashboard aquí](https://dashboardconectedpy-duzhzatzufew739jdcn92m.streamlit.app/).
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/af2a63cb-1be0-42ff-97a0-bbf8c3689ee1)
 
@@ -104,7 +99,7 @@ Sin duda alguna python como herramienta potentisima para cualquier tipo de trata
 
 
 <h1 align='center'>
- <b>Indice de recursos </b>
+ <b>Índice de recursos </b>
 </h1>
 
 ## Recursos internos
@@ -113,13 +108,13 @@ Sin duda alguna python como herramienta potentisima para cualquier tipo de trata
 -[Extracción Transformación y Carga](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb)<br>
 -[Data Frames](https://github.com/AndresMozo1/HenryPITwo/tree/main/DataFrames)<br>
 -[Base de datos](https://github.com/AndresMozo1/HenryPITwo/tree/main/SQL)<br>
--[Imagenes](https://github.com/AndresMozo1/HenryPITwo/tree/main/Imagenes)
+-[Imágenes](https://github.com/AndresMozo1/HenryPITwo/tree/main/Imagenes)
 
 ## Fuentes de datos 
 
-- [INDEC Instituto Nacional de Estadística República Argentina ](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165)
+- [INDEC Instituto Nacional de Estadística de la República Argentina](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165)
 
-## Tecnologias pricipales 
+## Tecnologías principales 
 
 - [sqlite3](https://www.sqlite.org/)
 - [sqlalchemy](https://www.sqlalchemy.org/)
@@ -127,10 +122,5 @@ Sin duda alguna python como herramienta potentisima para cualquier tipo de trata
 - [Streamlit](https://streamlit.io/)
 
 ## Contacto 
-- [Linkedin](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)<br>
-- [Correo](wmandres@gmail.com)
-
-
-
-
-
+- [LinkedIn](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)<br>
+- Correo electrónico: wmandres@gmail.com
