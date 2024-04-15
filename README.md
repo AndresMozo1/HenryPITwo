@@ -100,7 +100,11 @@ Como tercer paso cree una base de datos para una gestion eficiente de la informa
 
 Sin duda alguna python como herramienta potentisima para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerias) empalma perfectamente con  un entorno de visualizacion igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/), despues de leer parte de su documentacion, ver sus graficos, forma de crearlos y deplegarlos , tomo la decision de realizar transformaciones extras a los datos para crear graficos mas contundentes los cuales con filtros extras muestran informacion precisa, contundente y clara para analisis y toma de decisiones. [Streamlit](https://streamlit.io/).
 
-![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/d417d413-a245-47a7-b7f3-5df942b6b10b)
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/af2a63cb-1be0-42ff-97a0-bbf8c3689ee1)
+
+
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/531819af-647a-489a-90fb-93bf597b6cd8)
+
 
 
 
