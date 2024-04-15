@@ -1,8 +1,9 @@
 # Analisis Siniestralidad vial Ciudad de Buenos Aires 2016 - 2021
 
-<div style="text-align:center">
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/845b4f74-225d-4d98-a306-b98d780d9fdd" alt="imagen" />
-</div>
+<p style="text-align:center">
+  <img src="![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/bf4373f9-eec5-4f32-a765-d38f55fb608f)
+" />
+<p>
 
 ## 
     Proyecto Individual Data Analytics
