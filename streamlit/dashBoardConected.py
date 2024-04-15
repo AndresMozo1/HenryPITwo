@@ -99,7 +99,7 @@ with col2:
 
         with subcol2:
             # Obtener la variación del DataFrame
-        variacion = -6.5
+            variacion = -6.5
 
         # Crear un contenedor en Streamlit
         with st.container():
