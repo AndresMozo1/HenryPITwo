@@ -23,8 +23,10 @@ A través de este proyecto, se busca no solo analizar datos, sino también contr
 
 
 <p align='center'>
-  <img src="https://github.com/AndresMozo1/HenryPITwo/raw/assets/76072127/e97d8fc4-6eff-42e6-b3fb-306879886300" alt="imagen" />
+  <img src="https://github.com/AndresMozo1/HenryPITwo/assets/76072127/ead5a50a-4aae-4eb6-8544-7ce4564f410d" alt="imagen" />
 </p>
+
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/ead5a50a-4aae-4eb6-8544-7ce4564f410d)
 
 
 
