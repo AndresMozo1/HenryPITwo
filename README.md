@@ -22,6 +22,12 @@ Sin embargo, como muchas otras ciudades, Buenos Aires enfrenta desafíos en mate
 A través de este proyecto, se busca no solo analizar datos, sino también contribuir a la construcción de un futuro más seguro y próspero para los habitantes de Buenos Aires. Cada vida importa, y trabajar juntos nos permite crear un entorno más seguro para todos los ciudadanos.
 
 
+<p align='center'>
+  <img src="![Imagen de WhatsApp 2024-04-15 a las 10 37 59_8fe6556b](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/b6cbbe5c-c7f9-4484-a989-f7f9af8079d5)
+" alt="imagen" />
+</p>
+
+
 ## Desarrollo del proyecto
 
 
