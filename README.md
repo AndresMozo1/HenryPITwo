@@ -11,7 +11,7 @@
 </h2>
 
 <p align='center'>
-    [Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)
+    [Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417)
 </p>
 
 
@@ -27,9 +27,11 @@ Sin embargo, como muchas otras ciudades, Buenos Aires enfrenta desafíos en mate
 
 A través de este proyecto, se busca no solo analizar datos, sino también contribuir a la construcción de un futuro más seguro y próspero para los habitantes de Buenos Aires. Cada vida importa, y trabajar juntos nos permite crear un entorno más seguro para todos los ciudadanos.
 
-![image](https://github.com/AndresMozo1/secondHenry/assets/76072127/caa3f74b-56f4-484d-a259-bf58cbd44e4a)
 
-Durante el  primer contacto con los datos, [EDA.ipynb](https://github.com/AndresMozo1/secondHenry/blob/master/EDA.ipynb) me enfoque en analizar la composición y el tamaño de los datasets recibidos, con el propósito de observar similitudes, unificar información y avanzar hacia la visualización de los datos. Se realizó un análisis exhaustivo columna por columna en busca de información relevante o duplicada, así como la verificacion el formato de los datos, con el fin de tener un panorama claro para el desarrollo del proyecto.
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/9b253b8c-1561-4c4c-a6d8-ad2529fb6b93)
+
+
+Durante el  primer contacto con los datos, [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb) me enfoque en analizar la composición y el tamaño de los datasets recibidos, con el propósito de observar similitudes, unificar información y avanzar hacia la visualización de los datos. Se realizó un análisis exhaustivo columna por columna en busca de información relevante o duplicada, así como la verificacion el formato de los datos, con el fin de tener un panorama claro para el desarrollo del proyecto.
 
 Paso seguido empece a buscar Insights que me permitieran entender un poco mas las causas de la accidentalidad vial en CABA , las zonas con mayor insidencia, los actores viales, las franjas horarias y hasta los dias de la semana con el fin de tener una vision amplia y precisa que permita crear un plan de accion a corto , mediano y largo plazo; mientras se realizaba este analsis exploratorio de los datos, se empezaron a hacer visibles diferentes patrones y tendencias , datos que se pudieron verificar con fuentes oficiales y en este punto identifique la necesidad de 'enriquecer' los datos; partiendo del hecho que  el Sistema Nacional de Información Criminal (SNIC) define la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico.
 
