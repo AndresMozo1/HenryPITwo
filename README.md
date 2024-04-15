@@ -33,43 +33,68 @@ Durante el  primer contacto con los datos, [EDA.ipynb](https://github.com/Andres
 
 Paso seguido empece a buscar Insights que me permitieran entender un poco mas las causas de la accidentalidad vial en CABA , las zonas con mayor insidencia, los actores viales, las franjas horarias y hasta los dias de la semana con el fin de tener una vision amplia y precisa que permita crear un plan de accion a corto , mediano y largo plazo; mientras se realizaba este analsis exploratorio de los datos, se empezaron a hacer visibles diferentes patrones y tendencias , datos que se pudieron verificar con fuentes oficiales y en este punto identifique la necesidad de 'enriquecer' los datos; partiendo del hecho que  el Sistema Nacional de Información Criminal (SNIC) define la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico.
 
-<p align='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/9a7c0ec6-016a-449d-a32a-665ecdc5a6f8" alt="imagen" />
-<p>
 
-Eston son los datos mas valiosos del proceso de [EDA.ipynb](https://github.com/AndresMozo1/secondHenry/blob/master/EDA.ipynb)
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/5822c851-e69c-4760-b343-d2381f3f2790)
+
+
+
+
+
+Eston son los datos mas valiosos del proceso de [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
+
+
 
 Los picos en la accidentalidad por horas sugieren la necesidad de medidas preventivas específicas en momentos clave del día (AM).
 
-<p align='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/c7912477-b444-4aca-8f2e-71e4aac03843" alt="imagen" />
-<p>
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/e919f62f-09e4-413a-b0b5-14fd40a096cf)
+
 
 La variación en la frecuencia de accidentes según el tipo de calles señala áreas que podrían requerir mejoras en la infraestructura vial.
 
-<p allign='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/e52f80b5-8c16-4ab2-b7d1-a7c80e43a77b" alt="imagen" />
-<p>
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/11e5ef56-82e9-4bb3-8058-50af3130587c)
 
-La distribución geográfica de la accidentalidad por comunas muestra disparidades significativas, destacando áreas que necesitan mayor atención en seguridad vial y programas educativos, empezando por la
 
-<p allign='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/86d0dda6-3245-4b5f-9022-d0127428b7da" alt="imagen" />
-<p>
+
+La distribución geográfica de la accidentalidad por comunas muestra disparidades significativas, destacando áreas que necesitan mayor atención en seguridad vial y programas educativos, empezando por la comuna 1 por su alta concentracion de turistas y zonas de interes.
+
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/715b1b3c-45ca-43a9-b7d9-4b293e97a290)
+
+
 
 Los patrones diferenciales en las víctimas y responsables, así como en los rangos de edad, resaltan la importancia de abordar los factores de riesgo asociados con mayor precisión.
 
-<p allign='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/7c5dd3fc-79e9-4164-9667-d62639c40639" alt="imagen" />
-<p>
 
-Estos hallazgos mw ofrecieron una base sólida para orientar estrategias de prevención de accidentes y mejorar la seguridad vial en áreas específicas, incluyendo la Avenida General Paz y las comunas 1, 4, 7 y 9, que muestran una mayor incidencia de accidentes y requieren intervenciones diferenciadas.
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/71e7c258-90b0-44d1-8a5b-46be1a143c2e)
 
-Como segundo paso desarrolle el proceso de Extraccion Transformacion y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/secondHenry/blob/master/ETL.ipynb) Aqui obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165)  los trate y unifique para empezar a perfilar los datos en busqueda de los dos KPIS previamente suministrados y un tercero que complementase a los primeros.
+
+
+
+
+
+Estos hallazgos me ofrecieron una base sólida para orientar estrategias de prevención de accidentes y mejorar la seguridad vial en áreas específicas, incluyendo la Avenida General Paz y las comunas 1, 4, 7 y 9, que muestran una mayor incidencia de accidentes y requieren intervenciones diferenciadas.
+
+
+
+
+
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/449c01c4-8110-4845-afb7-2aec583cda37)
+
+
+
+
+Como segundo paso desarrolle el proceso de Extraccion Transformacion y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb) Aqui obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165)  los trate y unifique para empezar a perfilar los datos en busqueda de los dos KPIS previamente suministrados y un tercero que complementase a los primeros.
 
 <p align='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/6dee670f-3511-41ce-b026-2a67bb0f4bef" alt="imagen" />
+  <img src="https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3184ca12-4904-4845-9a73-62e1ad2d263e" alt="imagen" />
 </p>
+
+
+
+
+
+
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3711db08-5522-4e4f-a913-c80ede01a028)
+
 
 Como tercer paso cree una base de datos para una gestion eficiente de la informacion previamente tratada, para esto utilice el mapeador relacional de objetos [sqlalchemy](https://www.sqlalchemy.org/) para relacionar la base de datos creada con [sqlite3](https://www.sqlite.org/) para su posterior extraccion y finalmente su carga en formato de dataframe utilizando la libreria de [pandas](https://pandas.pydata.org/); este estack tecnologico brinda una infraestructura local y eficiente para administrar la informacion.
 
