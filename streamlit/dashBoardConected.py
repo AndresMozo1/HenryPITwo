@@ -105,7 +105,7 @@ with col2:
             with st.container():
                 st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
                 
-                # Crear el gráfico de indicadores (gauge) con el valor "+59.3"
+                
                 fig2 = go.Figure(go.Indicator(
                     mode="gauge+number",
                     value=abs(variacion),
@@ -168,7 +168,7 @@ imagen_url = "https://github.com/AndresMozo1/HenryPITwo/blob/main/Imagenes/Insig
 # Agregar la imagen en la barra lateral
 with st.sidebar:
     # Mostrar la imagen con un título opcional
-    st.image(imagen_url, caption='Insight Logo', use_column_width=True)
+    st.image(imagen_url, caption='Corporativos', use_column_width=True)
 
 
 
@@ -220,8 +220,6 @@ with st.sidebar:
 
 
    
-
-
 
 # Convertí la columna de fecha a tipo datetime
 datos = hst.convertirAFecha(datos, columnaFecha)
