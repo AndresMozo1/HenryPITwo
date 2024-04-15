@@ -168,7 +168,7 @@ with col2:
 
 
 # URL de la imagen
-imagen_url = "https://github.com/AndresMozo1/HenryPITwo/blob/main/Imagenes/Insight%20logo.jpg?raw=true"
+imagen_url = "https://github.com/AndresMozo1/HenryPITwo/blob/main/Imagenes/Insight%20logo-removebg-preview.jpg"
 
 # Agregar la imagen en la barra lateral
 with st.sidebar:
