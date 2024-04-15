@@ -97,16 +97,16 @@ with col2:
             st.plotly_chart(fig1, use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
 
-        with subcol2:
-            # Obtener la variación del DataFrame
-            variacion = -6.5
+    with subcol2:
+    # Obtener la variación del DataFrame
+    variacion = -6.5
 
-        # Crear un contenedor en Streamlit
-        with st.container():
-            st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
-                
-             # Crear el gráfico de indicadores (gauge) con el valor "-6.5"
-            fig2 = go.Figure(go.Indicator(
+    # Crear un contenedor en Streamlit
+    with st.container():
+        st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
+            
+        # Crear el gráfico de indicadores (gauge) con el valor "-6.5"
+        fig2 = go.Figure(go.Indicator(
             mode="gauge+number",
             value=variacion,
             title={'text': f"<span style='color: {'red' if variacion < 0 else 'green'};'>Motociclistas {variacion}%</span>"},
@@ -117,26 +117,25 @@ with col2:
                 'steps': [
                     {'range': [-100, 0], 'color': "#ffdb2e"},
                     {'range': [0, 100], 'color': "#6cb2e0"}
-                    ],
-                    'threshold': {
+                ],
+                'threshold': {
                     'line': {'color': "red", 'width': 3},
                     'thickness': 0.75,
                     'value': (variacion)
-                    }
                 }
-            ))
-            fig2.update_layout(
+            }
+        ))
+        fig2.update_layout(
             width=140,
             height=140,
             margin=dict(l=20, r=20, t=50, b=20)
-            )
-                
-            # Mostrar el gráfico de indicadores (gauge) con Plotly
-            st.plotly_chart(fig2, use_container_width=True)
-                
-            st.markdown('</div>', unsafe_allow_html=True)
-
-
+        )
+            
+        # Mostrar el gráfico de indicadores (gauge) con Plotly
+        st.plotly_chart(fig2, use_container_width=True)
+            
+        st.markdown('</div>', unsafe_allow_html=True)
+    
     with subcol3:
         with st.container():
             st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
