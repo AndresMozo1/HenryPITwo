@@ -23,9 +23,9 @@ A través de este proyecto, se busca no solo analizar datos, sino también contr
 
 
 <p align='center'>
-  <img src="![Imagen de WhatsApp 2024-04-15 a las 10 37 59_8fe6556b](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/b6cbbe5c-c7f9-4484-a989-f7f9af8079d5)
-" alt="imagen" />
+  <img src="https://github.com/AndresMozo1/HenryPITwo/raw/assets/76072127/e97d8fc4-6eff-42e6-b3fb-306879886300" alt="imagen" />
 </p>
+
 
 
 ## Desarrollo del proyecto
