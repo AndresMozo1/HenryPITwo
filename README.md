@@ -98,12 +98,24 @@ Como tercer paso cree una base de datos para una gestion eficiente de la informa
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3711db08-5522-4e4f-a913-c80ede01a028)
 
 
-Sin duda alguna python como herramienta potentisima para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerias) empalma perfectamente con  un entorno de visualizacion igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/), despues de leer parte de su documentacion, ver sus graficos, forma de crearlos y deplegarlos , tomo la decision de realizar transformaciones extras a los datos para crear graficos mas contundentes los cuales con filtros extras muestran informacion precisa, contundente y clara para analisis y toma de decisiones. [Streamlit](https://streamlit.io/).
+Sin duda alguna python como herramienta potentisima para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerias) empalma perfectamente con  un entorno de visualización igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/), despues de leer parte de su documentacion, ver sus graficos, forma de crearlos y deplegarlos , tomo la decision de realizar transformaciones extras a los datos para crear graficos mas contundentes los cuales con filtros extras muestran informacion precisa,  y clara para analisis y toma de decisiones. [Mira el Dashboard aqui](https://dashboardconectedpy-duzhzatzufew739jdcn92m.streamlit.app/).
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/af2a63cb-1be0-42ff-97a0-bbf8c3689ee1)
 
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/531819af-647a-489a-90fb-93bf597b6cd8)
+
+
+<h1 align='center'>
+ <b>Links de Navegación</b>
+</h1>
+
+[Análisis Exploratorio de Datos](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
+[Extracción Transformación y Carga](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb)
+[Data Frames](https://github.com/AndresMozo1/HenryPITwo/tree/main/DataFrames)
+[Base de datos](https://github.com/AndresMozo1/HenryPITwo/tree/main/SQL)
+[Imagenes](https://github.com/AndresMozo1/HenryPITwo/tree/main/Imagenes)
+
 
 
 
