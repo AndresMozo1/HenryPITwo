@@ -74,7 +74,7 @@ Estos hallazgos me ofrecieron una base sólida para orientar estrategias de prev
 
 
 
-Como segundo, y teniendo presente la necesidad de obtener datos poblacionales que me dieran puntos de referencia para los indicadores clave de rendimiento (KPI), desarrollé el proceso de Extracción Transformación y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb). Aquí obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165), los traté y unifiqué para empezar a perfilar los datos en búsqueda de los dos KPIs previamente suministrados y un tercero que complementase a los primeros. 
+Como segundo paso, y teniendo presente la necesidad de obtener datos poblacionales que me dieran puntos de referencia para los indicadores clave de rendimiento (KPI), desarrollé el proceso de Extracción Transformación y Carga de los datos [ETL.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb). Aquí obtuve datos de una [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165), los traté y unifiqué para empezar a perfilar los datos en búsqueda de los dos KPIs previamente suministrados y un tercero que complementase a los primeros. 
 
 ## Primer KPI 
 
@@ -97,7 +97,7 @@ Sin duda alguna, las motos y los peatones, los actores viales más desprotegidos
   <img src="https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3184ca12-4904-4845-9a73-62e1ad2d263e" alt="imagen" />
 </p>
 
-
+## Creacion de la Base de Datos
 
 
 Como tercer paso, creé una base de datos para una gestión eficiente de la información previamente tratada, para esto utilicé el mapeador relacional de objetos [sqlalchemy](https://www.sqlalchemy.org/) para relacionar la base de datos creada con [sqlite3](https://www.sqlite.org/) para su posterior extracción y finalmente su carga en formato de dataframe utilizando la librería de [pandas](https://pandas.pydata.org/); este stack tecnológico brinda una infraestructura local y eficiente para administrar la información.
@@ -107,7 +107,9 @@ Como tercer paso, creé una base de datos para una gestión eficiente de la info
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3711db08-5522-4e4f-a913-c80ede01a028)
 
 
-Sin duda alguna, Python como herramienta potente para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerías) encaja perfectamente con un entorno de visualización igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/). Después de leer parte de su documentación, ver sus gráficos, forma de crearlos y desplegarlos, tomé la decisión de realizar transformaciones extras a los datos para crear gráficos más contundentes los cuales con filtros extras muestran información precisa y clara para análisis y toma de decisiones. [Mira el Dashboard aquí](https://dashboardconectedpy-duzhzatzufew739jdcn92m.streamlit.app/).
+## Diseño del Tablero de Control
+
+Python como herramienta potente para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerías) encaja perfectamente con un entorno de visualización igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/). Después de leer parte de su documentación, ver sus gráficos, forma de crearlos y desplegarlos, tomé la decisión de realizar transformaciones extras a los datos para crear gráficos más contundentes los cuales con filtros extras muestran información precisa y clara para análisis y toma de decisiones. [Mira el Dashboard aquí](https://dashboardconectedpy-duzhzatzufew739jdcn92m.streamlit.app/).
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/af2a63cb-1be0-42ff-97a0-bbf8c3689ee1)
 
