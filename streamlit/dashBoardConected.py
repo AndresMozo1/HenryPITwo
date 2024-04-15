@@ -167,14 +167,11 @@ with col2:
             st.markdown('</div>', unsafe_allow_html=True)
 
 
-# URL de la imagen
-imagen_url = "https://github.com/AndresMozo1/HenryPITwo/blob/main/Imagenes/Insight%20logo-removebg-preview.jpg"
 
 # Agregar la imagen en la barra lateral
 with st.sidebar:
-    # Mostrar la imagen con un título opcional
-    st.image(imagen_url, caption='Corporativos', use_column_width=True)
-
+    # Cargar la imagen desde la ruta local
+    st.image("Imagenes/Insight logo-removebg-preview.jpg", caption='Corporativos', use_column_width=True)
 
 
 
