@@ -11,9 +11,10 @@
 </h2>
 
 <p align='center'>
- <b> [Wilmer Andrés Mozo Villamil DATA PT07 ](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/) </b>
-<p>
-[EDA.ipynb](https://github.com/AndresMozo1/secondHenry/blob/master/EDA.ipynb)
+    [Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)
+</p>
+
+
    
 
 <div style="text-align:center">
