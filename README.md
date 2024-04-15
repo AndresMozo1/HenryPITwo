@@ -34,7 +34,7 @@ Paso seguido empece a buscar Insights que me permitieran entender un poco mas la
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/5822c851-e69c-4760-b343-d2381f3f2790)
 
 
-[Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)
+
 
 
 Eston son los datos mas valiosos del proceso de [EDA.ipynb](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
@@ -107,11 +107,28 @@ Sin duda alguna python como herramienta potentisima para cualquier tipo de trata
  <b>Indice de recursos </b>
 </h1>
 
--[Análisis Exploratorio de Datos](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)
--[Extracción Transformación y Carga](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb)
--[Data Frames](https://github.com/AndresMozo1/HenryPITwo/tree/main/DataFrames)
--[Base de datos](https://github.com/AndresMozo1/HenryPITwo/tree/main/SQL)
+## Recursos internos
+
+-[Análisis Exploratorio de Datos](https://github.com/AndresMozo1/HenryPITwo/blob/main/EDA.ipynb)<br>
+-[Extracción Transformación y Carga](https://github.com/AndresMozo1/HenryPITwo/blob/main/ETL.ipynb)<br>
+-[Data Frames](https://github.com/AndresMozo1/HenryPITwo/tree/main/DataFrames)<br>
+-[Base de datos](https://github.com/AndresMozo1/HenryPITwo/tree/main/SQL)<br>
 -[Imagenes](https://github.com/AndresMozo1/HenryPITwo/tree/main/Imagenes)
+
+## Fuentes de datos 
+
+- [fuente oficial](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165)
+
+## Tecnologias pricipales 
+
+- [sqlite3](https://www.sqlite.org/)
+- [sqlalchemy](https://www.sqlalchemy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [Streamlit](https://streamlit.io/)
+
+## Contacto 
+- [Linkedin](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417b/)<br>
+- [Correo](wmandres@gmail.com)
 
 
 
