@@ -171,7 +171,7 @@ with col2:
 # Agregar la imagen en la barra lateral
 with st.sidebar:
     # Cargar la imagen desde la ruta local
-    st.image("Imagenes/Insight logo-removebg-preview.jpg", caption='Corporativos', use_column_width=True)
+    st.image("Imagenes/Insight_logo-removebg-preview-removebg-preview.png", caption='Corporativos', use_column_width=True)
 
 
 
