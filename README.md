@@ -23,7 +23,7 @@ A través de este proyecto, se busca no solo analizar datos, sino también contr
 
 
 <p align='center'>
-  <img src="https://github.com/AndresMozo1/HenryPITwo/assets/76072127/ead5a50a-4aae-4eb6-8544-7ce4564f410d" alt="imagen" />
+  <img src="Imagenes/Insight_logo-removebg-preview-removebg-preview.png" alt="imagen" />
 </p>
 
 
