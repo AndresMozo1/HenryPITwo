@@ -112,11 +112,16 @@ with col2:
                     domain={'x': [0, 1], 'y': [0, 1]},
                     gauge={
                         'axis': {'range': [-100, 100]},
-                        'bar': {'color': "red" },
+                        'bar': {'color': "rgba(0, 0, 0, 0)" },
                         'steps': [
                             {'range': [-100, 0], 'color': "#ffdb2e"},
                             {'range': [0, 100], 'color': "#6cb2e0"} 
-                        ]
+                        ],
+                        'threshold': {
+                            'line': {'color': "red", 'width': 2},
+                            'thickness': 0.75,
+                            'value': abs(variacion)
+                        }
                     }
                 ))
                 fig2.update_layout(
@@ -129,6 +134,7 @@ with col2:
                 st.plotly_chart(fig2, use_container_width=True)
             
                 st.markdown('</div>', unsafe_allow_html=True)
+
 
     with subcol3:
         with st.container():
