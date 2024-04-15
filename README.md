@@ -91,27 +91,16 @@ Como segundo paso desarrolle el proceso de Extraccion Transformacion y Carga de 
 
 
 
+Como tercer paso cree una base de datos para una gestion eficiente de la informacion previamente tratada, para esto utilice el mapeador relacional de objetos [sqlalchemy](https://www.sqlalchemy.org/) para relacionar la base de datos creada con [sqlite3](https://www.sqlite.org/) para su posterior extraccion y finalmente su carga en formato de dataframe utilizando la libreria de [pandas](https://pandas.pydata.org/); este estack tecnologico brinda una infraestructura local y eficiente para administrar la informacion.
+
 
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/3711db08-5522-4e4f-a913-c80ede01a028)
 
 
-Como tercer paso cree una base de datos para una gestion eficiente de la informacion previamente tratada, para esto utilice el mapeador relacional de objetos [sqlalchemy](https://www.sqlalchemy.org/) para relacionar la base de datos creada con [sqlite3](https://www.sqlite.org/) para su posterior extraccion y finalmente su carga en formato de dataframe utilizando la libreria de [pandas](https://pandas.pydata.org/); este estack tecnologico brinda una infraestructura local y eficiente para administrar la informacion.
-
-<p align='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/e69c59e3-41b9-4954-a682-50f042dadb02" alt="imagen" />
-</p>
-
 Sin duda alguna python como herramienta potentisima para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerias) empalma perfectamente con  un entorno de visualizacion igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/), despues de leer parte de su documentacion, ver sus graficos, forma de crearlos y deplegarlos , tomo la decision de realizar transformaciones extras a los datos para crear graficos mas contundentes los cuales con filtros extras muestran informacion precisa, contundente y clara para analisis y toma de decisiones. [Streamlit](https://streamlit.io/).
 
-<p align='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/16c87a22-12fe-433a-9a9c-a292185ed129" alt="imagen" />
-</p>
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/d417d413-a245-47a7-b7f3-5df942b6b10b)
 
-<p align='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/38e6e450-d215-4a1a-af77-aee195b6b6c6" alt="imagen" />
-</p>
 
-<p align='center'>
-  <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/57806263-497c-4efe-863e-56082537a4bb" alt="imagen" />
-</p>
+
