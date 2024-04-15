@@ -448,24 +448,32 @@ def mostrarPrimerKpiG(df):
 
     return chart 
 
-
-
 def mostrarSegundoKpi(df):
     """
     Muestra el indicador del segundo KPI: variación en la cantidad de accidentes mortales en moto.
 
     Args:
-    - df: DataFrame que contiene los datos relevantes.
+    - df: DataFrame que contiene los datos relevantes. Debe contener columnas 'AÑO', 'VICTIMA_x' y 'VARIACION'.
 
     Returns:
     - fig: Gráfico de barras comparando la cantidad de accidentes mortales en moto por año y la variación porcentual.
     """
+    # Validar que el DataFrame tenga las columnas necesarias
+    required_columns = ['AÑO', 'VICTIMA_x', 'VARIACION']
+    if not all(col in df.columns for col in required_columns):
+        raise ValueError("El DataFrame no tiene las columnas necesarias.")
+
     # Calcular la variación en la cantidad de accidentes mortales en moto
-    variacion = df['VARIACION'].iloc[-1]
+    victimas_ultimo_anio = df[df['AÑO'] == df['AÑO'].max()]['VICTIMA_x'].values[0]
+    victimas_anio_anterior = df[df['AÑO'] == df['AÑO'].max() - 2]['VICTIMA_x'].values[0]  # Cambiar de -1 a -2
+    variacion = ((victimas_ultimo_anio - victimas_anio_anterior) / victimas_anio_anterior) * 100
+
+    # Crear el título del gráfico de manera dinámica con la variación positiva
+    titulo = f"Accidentes Mortales en moto {df['AÑO'].iloc[-1]} : {victimas_ultimo_anio} vs {df['AÑO'].iloc[-3]} : {victimas_anio_anterior} ({variacion:.1f}%)"
 
     # Crear el gráfico de barras con Plotly
     fig = px.bar(df, x='AÑO', y='VICTIMA_x', color='VARIACION', 
-                title="Accidentes Mortales en moto 2021 :43 vs 2020 : 27 (-59,3) ",
+                title=titulo,
                 labels={'VICTIMA_x': 'Víctimas', 'AÑO': 'Año'},
                 color_continuous_scale=['#3c4b5c', '#96adbe', '#ffdb2e', '#91634f', '#6cb2e0'])
 
