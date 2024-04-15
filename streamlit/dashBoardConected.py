@@ -98,7 +98,7 @@ with col2:
             st.markdown('</div>', unsafe_allow_html=True)
 
         with subcol2:
-            Obtener la variación del DataFrame
+            # Obtener la variación del DataFrame
             variacion = dfSegundoKpi['VARIACION'].iloc[-1]
     
             # Crear un contenedor en Streamlit
