@@ -11,7 +11,7 @@
 </h2>
 
 <p align='center'>
-    [Wilmer Andrés Mozo Villamil DATA PT07](https://www.linkedin.com/in/wilmer-andr%C3%A9s-23097417)
+    Wilmer Andrés Mozo Villamil DATA PT07
 </p>
 
 
