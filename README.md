@@ -1,14 +1,20 @@
-# Analisis Siniestralidad vial Ciudad de Buenos Aires 2016 - 2021
+<h1 align='left'>
+ <b>Analisis Siniestralidad vial Ciudad de Buenos Aires 2016 - 2021</b>
+</h1>
 
-<p style="text-align:center">
-  <img src="![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/bf4373f9-eec5-4f32-a765-d38f55fb608f)
-" />
+
+
+![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/eb7595b4-66dd-494c-a146-53be5c95d61b)
+
+<h2 align='left'>
+ <b> Proyecto Individual Data Analytics </b>
+</h2>
+
+<p align='left'>
+ <b>  Wilmer Andrés Mozo Villamil DATA PT07  </b>
 <p>
 
-## 
-    Proyecto Individual Data Analytics
-
-    Wilmer Andrés Mozo Villamil DATA PT07
+   
 
 <div style="text-align:center">
   <img src="https://github.com/AndresMozo1/secondHenry/assets/76072127/f95b8b0f-8cb2-4a1a-b10d-b64caffcd10a" alt="imagen" />
