@@ -97,35 +97,39 @@ with col2:
             st.plotly_chart(fig1, use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
 
-    with subcol2:
-        with st.container():
-            st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
+        with subcol2:
+            Obtener la variación del DataFrame
             variacion = dfSegundoKpi['VARIACION'].iloc[-1]
-            fig2 = go.Figure(go.Indicator(
-                mode="gauge+number",
-                value=variacion,
-                title={'text': "Motociclistas -7%"},
-                domain={'x': [0, 1], 'y': [0, 1]},
-                gauge={
-                    'axis': {'range': [-100, 100]},
-                    'bar': {'color': "#ffdb2e" },
-                    'steps': [
-                    {'range': [-100, 0], 'color': "#ffdb2e"},  # Utilizar otro color de la paleta Viridis
-                    {'range': [0, 100], 'color': "#6cb2e0"} 
-                    ],
-                    'threshold': {
-                    'line': {'color': "red", 'width': 2},
-                    'thickness': 0.80,
-                    'value': variacion }
-                }
-            ))
-            fig2.update_layout(
-                width=140,
-                height=140,
-                margin=dict(l=20, r=20, t=50, b=20)
-            )
-            st.plotly_chart(fig2, use_container_width=True)
-            st.markdown('</div>', unsafe_allow_html=True)
+    
+            # Crear un contenedor en Streamlit
+            with st.container():
+                st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
+                
+                # Crear el gráfico de indicadores (gauge) con el valor "+59.3"
+                fig2 = go.Figure(go.Indicator(
+                    mode="gauge+number",
+                    value=abs(variacion),
+                    title={'text': f"Motociclistas -7%"},
+                    domain={'x': [0, 1], 'y': [0, 1]},
+                    gauge={
+                        'axis': {'range': [-100, 100]},
+                        'bar': {'color': "red" },
+                        'steps': [
+                            {'range': [-100, 0], 'color': "#ffdb2e"},
+                            {'range': [0, 100], 'color': "#6cb2e0"} 
+                        ]
+                    }
+                ))
+                fig2.update_layout(
+                    width=140,
+                    height=140,
+                    margin=dict(l=20, r=20, t=50, b=20)
+                )
+                
+                # Mostrar el gráfico de indicadores (gauge) con Plotly
+                st.plotly_chart(fig2, use_container_width=True)
+                
+                st.markdown('</div>', unsafe_allow_html=True)
 
     with subcol3:
         with st.container():
