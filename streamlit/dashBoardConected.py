@@ -158,6 +158,17 @@ with col2:
             st.markdown('</div>', unsafe_allow_html=True)
 
 
+# URL de la imagen
+imagen_url = "https://github.com/AndresMozo1/HenryPITwo/blob/main/Imagenes/Insight%20logo.jpg?raw=true"
+
+# Agregar la imagen en la barra lateral
+with st.sidebar:
+    # Mostrar la imagen con un título opcional
+    st.image(imagen_url, caption='Insight Logo', use_column_width=True)
+
+
+
+
 # Barra lateral
 with st.sidebar:
     st.title('Filtros')
