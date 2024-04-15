@@ -100,12 +100,11 @@ with col2:
         with subcol2:
             # Obtener la variación del DataFrame
             variacion = dfSegundoKpi['VARIACION'].iloc[-1]
-    
+            
             # Crear un contenedor en Streamlit
             with st.container():
                 st.markdown('<div class="kpi-container">', unsafe_allow_html=True)
-                
-                
+            
                 fig2 = go.Figure(go.Indicator(
                     mode="gauge+number",
                     value=abs(variacion),
@@ -125,10 +124,10 @@ with col2:
                     height=140,
                     margin=dict(l=20, r=20, t=50, b=20)
                 )
-                
+            
                 # Mostrar el gráfico de indicadores (gauge) con Plotly
                 st.plotly_chart(fig2, use_container_width=True)
-                
+            
                 st.markdown('</div>', unsafe_allow_html=True)
 
     with subcol3:
