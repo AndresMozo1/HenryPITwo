@@ -19,7 +19,7 @@ Buenos Aires, una ciudad donde la historia y la modernidad se entrelazan en un v
 
 Sin embargo, como muchas otras ciudades, Buenos Aires enfrenta desafíos en materia de seguridad vial. Entre 2018 y 2022, se registraron más de 19,000 muertes por siniestros viales en toda Argentina (más de 700 en solo CABA), lo que destaca la necesidad urgente de medidas para proteger a los ciudadanos en las vías. Es en este contexto se desarrolló un proyecto de análisis de datos con el objetivo de proporcionar información valiosa a las autoridades locales. Se exploraron patrones, se identificaron áreas críticas y se propusieron soluciones para mejorar la seguridad vial en la ciudad.
 
-A través de este proyecto, se busca no solo analizar datos, sino también contribuir a la construcción de un futuro más seguro y próspero para los habitantes de Buenos Aires. Cada vida importa, y trabajar juntos nos permite crear un entorno más seguro para todos los ciudadanos.
+A través de este proyecto INSIGHT LATINNAMERICA, busca no solo analizar datos, sino también contribuir a la construcción de un futuro más seguro y próspero para los habitantes de Buenos Aires. Cada vida importa, y trabajar juntos nos permite crear un entorno más seguro para todos los ciudadanos.
 
 
 <p align='center'>
