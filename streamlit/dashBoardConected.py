@@ -109,7 +109,7 @@ with col2:
             fig2 = go.Figure(go.Indicator(
                 mode="gauge+number",
                 value=variacion,
-                title={'text': "Motos -7%", 'font': {'color': 'red'}},
+                title={'text': "Motocicletas -7%", 'font': {'color': 'red'}},
                 domain={'x': [0, 1], 'y': [0, 1]},
                 gauge={
                     'axis': {'range': [-100, 100]},
