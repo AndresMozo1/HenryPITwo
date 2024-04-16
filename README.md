@@ -93,6 +93,10 @@ Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos sei
 
 Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año en la Ciudad Autónoma de Buenos Aires (CABA), en comparación con el año anterior.
 
+En este KPI tome la decision de tomar como punto de refencia el año 2019 y no el año 2020 debido a que se puede considerar esta cifra como un dato atípico teniendo en cuenta el contexto del año 2020 (pandemia), los demas KPIs no se vieron afectados de manera tan drastica razón por lo que no los modifique. 
+
+
+
 Se define la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. La fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100.
 
 ## Tercer KPI 
@@ -118,7 +122,7 @@ Como tercer paso, creé una base de datos para una gestión eficiente de la info
 
 ## Diseño del Tablero de Control
 
-Python como herramienta potente para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerías) encaja perfectamente con un entorno de visualización igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/). Después de leer parte de su documentación, ver sus gráficos, forma de crearlos y desplegarlos, tomé la decisión de realizar transformaciones extras a los datos para crear gráficos más contundentes los cuales con filtros extras muestran información precisa y clara para análisis y toma de decisiones. [Mira el Dashboard aquí](https://dashboardconectedpy-duzhzatzufew739jdcn92m.streamlit.app/).
+Python como herramienta potente para cualquier tipo de tratamiento con los datos (junto a sus frameworks y librerías) encaja perfectamente con un entorno de visualización igualmente potente e interactivo llamado [Streamlit](https://streamlit.io/). Después de leer parte de su documentación, ver sus gráficos, forma de crearlos y desplegarlos, tomé la decisión de realizar transformaciones extras a los datos para crear gráficos más contundentes los cuales con filtros extras muestran información precisa y clara para análisis y toma de decisiones. [Mira el Dashboard aquí](https://dashboardconectedpy-duzhzatzufew739jdcn92m.streamlit.app/).(¡Ajustar fondo claro en la esquina superior derecha! )
 
 ![image](https://github.com/AndresMozo1/HenryPITwo/assets/76072127/af2a63cb-1be0-42ff-97a0-bbf8c3689ee1)
 
